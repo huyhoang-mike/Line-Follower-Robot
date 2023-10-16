@@ -21,13 +21,13 @@ double initial_motor_speed = 180; // 160-170
 double motor_speed = initial_motor_speed ;
 
 // Tốc độ rẽ
-int banh_chinh = 80;//95-70
+int banh_chinh = 75;//95-70
 int banh_phu = 255-160; //Đảo ngược-110-130
 //vọt lố - tăng phụ, giảm chính
 //chưa tới - tăng chính giảm phụ
 
 // PID Constants
-double Kp = 19;//-17.5-18.0000-15-16
+double Kp = 18;//-17.5-18.0000-15-16
 double Ki = 0.0;//-0.02-0.04-00
 double Kd = 10.5;//13-50-75-70-90-100-205-208-222
 //con rắn-tăng kd
